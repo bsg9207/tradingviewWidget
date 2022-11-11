@@ -1,24 +1,145 @@
 <!-- TradingView Widget BEGIN -->
-<div class="tradingview-widget-container">
-    <div id="tradingview_adf88"></div>
-    <div class="tradingview-widget-copyright"><a href="https://www.tradingview.com/symbols/NASDAQ-AAPL/" rel="noopener" target="_blank"><span class="blue-text">AAPL Chart</span></a> by TradingView</div>
-    <script type="text/javascript" src="https://s3.tradingview.com/tv.js"></script>
-    <script type="text/javascript">
-    new TradingView.widget(
-    {
-    "autosize": true,
-    "symbol": "NASDAQ:AAPL",
-    "interval": "D",
-    "timezone": "Etc/UTC",
-    "theme": "light",
-    "style": "1",
-    "locale": "en",
-    "toolbar_bg": "#f1f3f6",
-    "enable_publishing": false,
-    "allow_symbol_change": true,
-    "container_id": "tradingview_adf88"
-  }
-    );
+<div class="tradingview-widget-container" style="display: contents">
+  <div class="tradingview-widget-ticker">
+    <script
+      type="text/javascript"
+      src="https://s3.tradingview.com/external-embedding/embed-widget-tickers.js"
+      async
+    >
+        {
+        "symbols": [
+          {
+            "proName": "FOREXCOM:NSXUSD",
+            "title": "US 100"
+          },
+          {
+            "description": "USD/KRW",
+            "proName": "FX_IDC:USDKRW"
+          },
+          {
+            "description": "EUR/KRW",
+            "proName": "FX_IDC:EURKRW"
+          },
+          {
+            "description": "JPY/KRW",
+            "proName": "FX_IDC:JPYKRW"
+          },
+          {
+            "description": "CNY/KRW",
+            "proName": "FX_IDC:CNYKRW"
+          }
+        ],
+        "colorTheme": "dark",
+        "isTransparent": false,
+        "showSymbolLogo": true,
+        "locale": "kr"
+      }
     </script>
   </div>
-  <!-- TradingView Widget END -->
+  <div>&nbsp;</div>
+  <div class="tradingview-widget-mini-overview" style="display: flex">
+    <script
+      type="text/javascript"
+      src="https://s3.tradingview.com/external-embedding/embed-widget-mini-symbol-overview.js"
+      async
+    >
+        {
+        "symbol": "CURRENCYCOM:US100",
+        "width": 350,
+        "height": 220,
+        "locale": "kr",
+        "dateRange": "12M",
+        "colorTheme": "dark",
+        "trendLineColor": "rgba(41, 98, 255, 1)",
+        "underLineColor": "rgba(41, 98, 255, 0.3)",
+        "underLineBottomColor": "rgba(41, 98, 255, 0)",
+        "isTransparent": false,
+        "autosize": true,
+        "largeChartUrl": ""
+      }
+    </script>
+    <script
+      type="text/javascript"
+      src="https://s3.tradingview.com/external-embedding/embed-widget-mini-symbol-overview.js"
+      async
+    >
+        {
+        "symbol": "FX_IDC:USDKRW",
+        "width": 350,
+        "height": 220,
+        "locale": "kr",
+        "dateRange": "12M",
+        "colorTheme": "dark",
+        "trendLineColor": "rgba(41, 98, 255, 1)",
+        "underLineColor": "rgba(41, 98, 255, 0.3)",
+        "underLineBottomColor": "rgba(41, 98, 255, 0)",
+        "isTransparent": false,
+        "autosize": true,
+        "largeChartUrl": ""
+      }
+    </script>
+    <script
+      type="text/javascript"
+      src="https://s3.tradingview.com/external-embedding/embed-widget-mini-symbol-overview.js"
+      async
+    >
+        {
+        "symbol": "FX_IDC:EURKRW",
+        "width": 350,
+        "height": 220,
+        "locale": "kr",
+        "dateRange": "12M",
+        "colorTheme": "dark",
+        "trendLineColor": "rgba(41, 98, 255, 1)",
+        "underLineColor": "rgba(41, 98, 255, 0.3)",
+        "underLineBottomColor": "rgba(41, 98, 255, 0)",
+        "isTransparent": false,
+        "autosize": true,
+        "largeChartUrl": ""
+      }
+    </script>
+  </div>
+  <div class="tradingview-widget-mini-overview" style="display: flex">
+    <script
+      type="text/javascript"
+      src="https://s3.tradingview.com/external-embedding/embed-widget-mini-symbol-overview.js"
+      async
+    >
+        {
+        "symbol": "FX_IDC:JPYKRW",
+        "width": 350,
+        "height": 220,
+        "locale": "kr",
+        "dateRange": "12M",
+        "colorTheme": "dark",
+        "trendLineColor": "rgba(41, 98, 255, 1)",
+        "underLineColor": "rgba(41, 98, 255, 0.3)",
+        "underLineBottomColor": "rgba(41, 98, 255, 0)",
+        "isTransparent": false,
+        "autosize": true,
+        "largeChartUrl": ""
+      }
+    </script>
+    <script
+      type="text/javascript"
+      src="https://s3.tradingview.com/external-embedding/embed-widget-mini-symbol-overview.js"
+      async
+    >
+        {
+        "symbol": "FX_IDC:CNYKRW",
+        "width": 350,
+        "height": 220,
+        "locale": "kr",
+        "dateRange": "12M",
+        "colorTheme": "dark",
+        "trendLineColor": "rgba(41, 98, 255, 1)",
+        "underLineColor": "rgba(41, 98, 255, 0.3)",
+        "underLineBottomColor": "rgba(41, 98, 255, 0)",
+        "isTransparent": false,
+        "autosize": true,
+        "largeChartUrl": ""
+      }
+    </script>
+  </div>
+</div>
+<!-- TradingView Widget END -->
